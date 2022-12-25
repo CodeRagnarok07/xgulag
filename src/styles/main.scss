@@ -1,0 +1,53 @@
+@use 'vars' as v;
+@use 'mixins' as m;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import 'utils';
+// @import 'components';
+
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#__next {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: v.$light2;
+
+
+}
+
+section {
+    min-height: 100vh;
+    
+    padding: 0px 2rem;
+}
+
+// Fonts
+
+p{
+    line-height: 2rem;
+    color: v.$gray;
+
+}
+
+
+// Themes
+
+.bg-dark{
+    background-color: v.$dark;
+    color: white;
+
+    p{
+        color: white;
+    }
+}
+
+.bg-light{
+    background-color: v.$light2;
+    color: v.$dark;
+    font-weight: 600;
+}

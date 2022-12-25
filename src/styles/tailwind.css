@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    @apply text-xs 
+}
+
+h1{
+    @apply uppercase text-2xl font-extrabold 
+}
+.text-primary{
+    @apply text-[#F2B705] 
+}
+
+.text-dark{
+    @apply text-black 
+}
