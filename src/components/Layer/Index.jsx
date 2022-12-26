@@ -19,15 +19,19 @@ export default function Index({ children }) {
                 {children}
             </main>
 
-            <footer className='bg-dark text-white py-5 px-2 sm:px-5'>
+            <footer className='bg-dark text-white py-5 px-8 sm:px-5 flex flex-col sm:flex-row sm:justify-start sm:gap-20'>
+
                 <h1 className='text-primary' >contacto</h1>
 
-                <div className='flex flex-col gap-5'>
+                <div className='flex flex-col  sm:flex-row sm:justify-around gap-5  '>
+                    <div>
+
                     <p className='text-white'>14776, Branderburg, Alemania</p>
                     <p className='text-white'>+49 157 36666390</p>
                     <a href="mailto">sergiosantansaez@gmail.com</a>
+                    </div>
 
-                    <div className='flex flex-col gap-1'>
+                    <div className='flex flex-col gap-1 sm:justify-center'>
                         <a href="">www.wolfgg.live</a>
                         <a href="">www.kingcord.xyz</a>
                         <a href="">www.loick.team</a>

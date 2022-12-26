@@ -22,13 +22,12 @@ body {
 
 section {
     min-height: 100vh;
-    
-    padding: 0px 2rem;
+    padding: 0px 3rem 2rem;
 }
 
 // Fonts
 
-p{
+p {
     line-height: 2rem;
     color: v.$gray;
 
@@ -37,17 +36,51 @@ p{
 
 // Themes
 
-.bg-dark{
+.bg-primary {
+    background-color: v.$primary;
+}
+
+.bg-dark {
     background-color: v.$dark;
     color: white;
 
-    p{
+    p {
         color: white;
     }
 }
 
-.bg-light{
+.bg-light {
     background-color: v.$light2;
     color: v.$dark;
     font-weight: 600;
+}
+
+
+// background
+
+.bg1 {
+    background-color: transparent;
+
+    &::before {
+
+        background-color: #e5e5f7;
+        opacity: 0.5;
+        background: repeating-linear-gradient(45deg, #444cf7, #444cf7 19px, #e5e5f7 19px, #e5e5f7 95px);
+
+        background-image: radial-gradient(#444cf7 1.9000000000000001px, transparent 1.9000000000000001px), radial-gradient(#444cf7 1.9000000000000001px, #e5e5f7 1.9000000000000001px);
+        background-size: 76px 76px;
+        background-position: 0 0, 38px 38px;
+    }
+}
+
+nav {
+    -webkit-box-shadow: 0 -1px 5px 2.5px v.$light2;
+    -moz-box-shadow: 0 -1px 5px 2.5px v.$light2;
+    box-shadow: 0px 2px 5px 0.01px v.$light2;
+}
+
+footer {
+    -webkit-box-shadow: 0 -1px 5px 2.5px v.$light2;
+    -moz-box-shadow: 0 -1px 5px 2.5px v.$light2;
+    box-shadow: 1px 2px 5px 0.01px v.$light2;
 }
