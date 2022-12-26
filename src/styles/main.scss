@@ -21,8 +21,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 0px 3rem;
-    padding-bottom: 3rem;
+    padding: 8rem 3rem 4rem;
 }
 
 // Fonts
@@ -47,6 +46,31 @@ p {
     p {
         color: white;
     }
+
+    &.bg1 {
+        // background-color: v.$dark;
+        opacity: 1;
+
+
+        position: relative;
+
+        &::before {
+            z-index: 0;
+            content: "";
+            background-repeat: no-repeat;
+
+            background-color: #e5e5f7;
+            background-image: url("/bg/xgulag.png");
+            background-size: contain;
+            position: absolute;
+            top: 90%;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            mix-blend-mode: multiply;
+            opacity: 0.1;
+        }
+    }
 }
 
 .bg-light {
@@ -63,7 +87,7 @@ p {
         &::before {
             z-index: 0;
             content: "";
-            background-image: url("/backglight.png");
+            background-image: url("/bg/backglight.png");
             background-size: cover;
             position: absolute;
             top: 0px;
