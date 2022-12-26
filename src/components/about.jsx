@@ -20,6 +20,17 @@ export default function About() {
         las Startups.
       </p>
 
+      
+      <div className='mt-20'>
+        <h2 className='uppercase text-4xl '>xgulag</h2>
+        <div className='text-2xl mt-8 '>
+          <p className=''>  +3.5 follows Twitch.</p>
+          <p className=''>  +1k follows Twitter.</p>
+          <p className=''>  +800 streamers WolfGG Community</p>
+          <p className=''>  +100 freelancers LoickTeamCommunity</p>
+        </div>
+      </div>
+
  
 
     </section>
