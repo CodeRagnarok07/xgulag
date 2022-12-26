@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function projects() {
   return (
-    <section className='bg-light sm:pt-0 pt-32 pb-5' >
+    <section className='bg-light sm:pt-0 pt-32 ' >
 
     <h1 className='text-[4rem] text-center leading-10 mb-24'>Descripción</h1>
 

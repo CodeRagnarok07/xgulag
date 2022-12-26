@@ -6,7 +6,6 @@
 
 html,
 body {
-    height: 100%;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -22,7 +21,8 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 0px 3rem 2rem;
+    padding: 0px 3rem;
+    padding-bottom: 3rem;
 }
 
 // Fonts
@@ -53,6 +53,29 @@ p {
     background-color: v.$light2;
     color: v.$dark;
     font-weight: 600;
+
+    &.bg1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+        &::before {
+            z-index: 0;
+            content: "";
+            background-image: url("/backglight.png");
+            background-size: cover;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            mix-blend-mode: multiply;
+            opacity: 0.2;
+        }
+    }
+
+
 }
 
 

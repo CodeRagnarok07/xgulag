@@ -14,13 +14,13 @@ export default function projects() {
         </div>
 
         <div className='flex items-center justify-between w-full'>
-          <div><img src="projects/wgg.png" alt="" /></div>
+          <div className='flex justify-center w-full'><img className='mx-auto' src="projects/wgg-.png" alt="" /></div>
 
           <div className='font-bold text-primary text-6xl'>2</div>
         </div>
 
         <div className='flex items-center justify-between w-full'>
-          <div><img src="projects/loickteam.png" alt="" /></div>
+          <div ><img className='h-32 ' src="projects/loickteam.png" alt="" /></div>
 
           <div className='font-bold text-primary text-6xl'>3</div>
         </div>

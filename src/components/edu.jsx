@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Rfc() {
   return (
-    <section className='bg-light  py-32' >
+    <section className='bg-light  py-32 bg1' >
 
       {/* <h1 className='font-extrabold text-[3rem] text-right leading-10 mb-14'>cursos</h1> */}
 
