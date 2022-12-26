@@ -21,7 +21,7 @@ export default function About() {
       </p>
 
       <div>
-        <h2 className='uppercase text-4xl text-right mt-20'>xgulax</h2>
+        <h2 className='uppercase text-4xl text-right mt-20'>xgulag</h2>
         <div className='text-right text-2xl mt-20 '>
           <p className=''>+3.5 follows Twitch. °</p>
           <p className=''>+1k follows Twitter. °</p>
