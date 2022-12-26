@@ -17,9 +17,10 @@ export default function projects() {
 
 
       <div className='flex flex-col gap-4 sm:justify-center'>
-        <a href="">www.wolfgg.live</a>
-        <a href="">www.kingcord.xyz</a>
-        <a href="">www.loick.team</a>
+        <a href="https://www.wolfgg.live/auth/login" target="_blank" rel="noreferrer"  >www.wolfgg.live</a>
+        <a href="https://kingcord.xyz/" target="_blank" rel="noreferrer"  >www.kingcord.xyz</a>
+        <a href="https://www.wolfgg.live" target="_blank" rel="noreferrer"  >www.loick.team</a>
+        
       </div>
 
 
