@@ -33,6 +33,12 @@ p {
 }
 
 
+// animaciones
+
+.transition1{
+    @apply transition ease-in-out delay-150 duration-700
+}
+
 // Themes
 
 .bg-primary {

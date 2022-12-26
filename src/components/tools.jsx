@@ -12,7 +12,6 @@ export default function Rfc() {
 
         <img className='h-24' src="edu/wix.png" alt="" />
         <img className='h-24' src="edu/webflow.png" alt="" />
-        <img className='' src="tools/01.png" alt="" />
 
 
       </div>
