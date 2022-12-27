@@ -10,16 +10,19 @@ export default function projects() {
       <h1 className='text-primary text-7xl' >contacto</h1>
       <div>
 
-        <p className='text-white'>14776, Branderburg, Alemania</p>
-        <p className='text-white'>+49 157 36666390</p>
-        <p><a href="mailto">sergiosantansaez@gmail.com</a></p>
+        <p className='text-white'>14776, Branderburg , Alemania</p>
+        <p className='text-white'>+ 49 157 36666390</p>
+        <a href="mailto:sergio@loick.com">sergio@loick.com</a>
       </div>
 
 
       <div className='flex flex-col gap-4 sm:justify-center'>
-        <a href="https://www.wolfgg.live/auth/login" target="_blank" rel="noreferrer"  >www.wolfgg.live</a>
+        <a href="https://www.wolfgg.live" target="_blank" rel="noreferrer"  >www.wolfgg.live</a>
         <a href="https://kingcord.xyz/" target="_blank" rel="noreferrer"  >www.kingcord.xyz</a>
-        <a href="https://www.wolfgg.live" target="_blank" rel="noreferrer"  >www.loick.team</a>
+        <a href="https://www.loick.team" target="_blank" rel="noreferrer"  >www.loick.team</a>
+        <a href="https:/www.turing-ai.xyz" target="_blank" rel="noreferrer"  >www.turing-ai.xyz</a>
+
+        
         
       </div>
 
