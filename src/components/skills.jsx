@@ -8,7 +8,6 @@ export default function Skills() {
 
       <div className='flex  flex-col gap-10  mb-24'>
 
-        Manejo de metodologías ágiles para equipos de alto rendimiento.
 
 
 
@@ -48,7 +47,7 @@ export default function Skills() {
       </div>
 
       <p className='uppercase font-extrabold text-[3rem]  leading-10 text-right'>+ de 50 titulos en </p>
-      <div className='flex w-full justify-end mb-32 mt-5'><img src="edu/platz.png" alt="" /></div>
+      <div className='flex w-full justify-end mb-32 mt-5'><img src="toolsSkils/platz.png" alt="" /></div>
 
     </section>
   )

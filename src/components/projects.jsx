@@ -27,7 +27,7 @@ export default function projects() {
 
             </div>
           </div>
-          <div className='font-extrabold text-primary text-7xl'>1</div>
+          <div className='font-extrabold text-primary text-7xl'>2</div>
         </div>
         <div className='flex items-center justify-between w-full'>
           <div className='w-full flex justify-center h-32 relative cursor-pointer group'>
@@ -35,7 +35,7 @@ export default function projects() {
             <div className='group-hover:opacity-100 opacity-0 text-center absolute inset-0 transition1'>Es la centralización de diversas inteligencias artificiales en una sola App donde los usuarios pueden interactuar con ellas .
             </div>
           </div>
-          <div className='font-extrabold text-primary text-7xl'>1</div>
+          <div className='font-extrabold text-primary text-7xl'>3</div>
         </div>
         <div className='flex items-center justify-between w-full'>
           <div className='w-full flex justify-center h-32 relative cursor-pointer group'>
@@ -43,7 +43,7 @@ export default function projects() {
             <div className='group-hover:opacity-100 opacity-0 text-center absolute inset-0 transition1'>Es una organizaciónde de Freelancers con mentalidad disruptiva, que vive para aprender cualquier cosa dentro del campo social y tecnológico , que en su tiempo libre se dedica a lanzar proyectos digitales en su mayoría Startups . 
             </div>
           </div>
-          <div className='font-extrabold text-primary text-7xl'>1</div>
+          <div className='font-extrabold text-primary text-7xl'>4</div>
         </div>
            
       </div>

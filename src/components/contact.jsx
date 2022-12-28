@@ -5,9 +5,10 @@ import Bg1 from './bg/bg1'
 export default function projects() {
   return (
 
-    <section className='bg-dark text-white  flex flex-col  sm:gap-20'>
+    <section className='bg-dark text-white  flex flex-col gap-20'>
 
       <h1 className='text-primary text-7xl' >contacto</h1>
+      
       <div>
 
         <p className='text-white'>14776, Branderburg , Alemania</p>
