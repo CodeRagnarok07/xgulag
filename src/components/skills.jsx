@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <section className='bg-light  ' >
 
-      <h1 className=' text-[4rem] text-center leading-10 mb-12'>Skills</h1>
+      <h1 className='text-5xl text-center mb-12'>Skills</h1>
 
       <div className='flex  flex-col gap-10  mb-24'>
 

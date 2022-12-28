@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <section className='bg-dark ' >
-      <h1 className='text-primary text-[4rem] text-center leading-10 mb-24'>Tools</h1>
+      <h1 className='text-primary text-5xl text-center mb-12'>Tools</h1>
 
       <img className='h-40  mx-auto ' src="tools/01.png" alt="" />
       <img className='h-40  mx-auto ' src="tools/02.png" alt="" />

@@ -7,7 +7,7 @@ export default function projects() {
 
     <section className='bg-dark text-white  flex flex-col gap-20'>
 
-      <h1 className='text-primary text-7xl' >contacto</h1>
+      <h1 className='text-primary text-5xl' >contacto</h1>
       
       <div>
 

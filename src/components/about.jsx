@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section className='bg-light bg1' >
 
-      <h1 className='text-[4rem] text-center leading-10 mb-12'>Sobre mi</h1>
+      <h1 className='text-5xl text-center mb-12'>Sobre mi</h1>
 
       <p className='text-xl underline mb-4'>"El networking es una parte esencial de la construcción de la riqueza"</p>
 

@@ -6,7 +6,7 @@ export default function projects() {
   return (
     <section className='bg-dark    ' >
 
-      <h1 className='text-primary text-[4rem] text-center leading-10 mb-24'>Projectos</h1>
+      <h1 className='text-primary text-5xl text-center mb-12'>Projectos</h1>
 
       <div className='flex flex-col gap-20  '>
 
