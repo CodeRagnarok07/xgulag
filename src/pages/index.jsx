@@ -19,7 +19,7 @@ export default function Home() {
 
       {/* <div className='bg-light h-32 flex'> <div className='h-32'></div></div> */}
 
-      <div className="grid sm:grid-cols-3 ">
+      <div className="grid sm:grid-cols-3 mx-auto w-full">
 
         <About />
         <Contact />
