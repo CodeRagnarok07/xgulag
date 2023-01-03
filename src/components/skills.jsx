@@ -19,7 +19,7 @@ export default function Skills() {
           <div><div className='h-5 w-5 mt-2 ml-2 bg-dark rounded-full'></div></div>
         </div>
         <div className='w-auto ml-auto flex items-start justify-around '>
-          <p className='text-right font-bold text-xl'>Desarrollo de ideas y conceptos para productos tecnológicos.
+          <p className='text-right font-bold text-xl'>Desarrollo de ideas y conceptos para proyectos tecnológicos.
           </p>
           <div><div className='h-5 w-5 mt-2 ml-2 bg-dark rounded-full'></div></div>
         </div>

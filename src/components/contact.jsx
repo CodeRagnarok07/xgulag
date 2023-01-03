@@ -6,15 +6,17 @@ export default function projects() {
   return (
 
     <section className='bg-dark text-white  flex flex-col gap-20' id='contact'>
-        <img src="/bg/Wolf.png" className='absolute top-0 opacity-10' alt="" />
 
       <h1 className='text-primary text-5xl' >contacto</h1>
 
       <div>
 
         <p className='text-white'>14776, Branderburg , Alemania</p>
-        <p className='text-white'>+ 49 157 36666390</p>
-        <a target="_blank" rel="noreferrer" href="mailto:sergio@loick.com">sergio@loick.com</a>
+        <p>
+
+        <a className='text-white' href="tel:+4915736666390">+49 157 36666390</a>
+        </p>
+        <a href="mailto:Sergio@loickteam.org">Sergio@loickteam.org</a>
       </div>
 
 

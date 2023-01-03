@@ -10,8 +10,9 @@ export default function footer() {
                 <div>
 
                     <p className='text-white'>14776, Branderburg, Alemania</p>
-                    <p className='text-white'>+49 157 36666390</p>
-                    <a href="mailto:sergio@loick.com">sergio@loick.com</a>
+
+                    <p><a className='text-white' href="tel:+4915736666390">+49 157 36666390</a></p>
+                    <a href="mailto:Sergio@loickteam.org">Sergio@loickteam.org</a>
                 </div>
 
                 <div className='flex flex-col gap-1 sm:justify-center'>

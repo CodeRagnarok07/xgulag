@@ -14,7 +14,7 @@ export default function About() {
       <img className='h-32  mx-auto mt-8 mb-12' src="tools/04.png" alt="" />
       <img className='h-40  mx-auto ' src="tools/05.png" alt="" />
  
-
+      <img src="/bg/Wolf.png" className='absolute  bottom-[30%] opacity-10  ' alt="" />
 
     </section>
   )
