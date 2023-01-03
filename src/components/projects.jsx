@@ -6,11 +6,7 @@ export default function projects() {
   return (
     <section className='bg-dark' id='projects'>
 
-      <img src="/bg/G.png" className='absolute top-0 left-[-40px] opacity-50 h-[25%] w-auto' alt="" />
-      <img src="/bg/G.png" className='absolute bottom-0 right-0 opacity-50 h-[25%] w-auto' alt="" />
-      <img src="/bg/Ltop.png" className='absolute top-0 right-0 opacity-50  w-auto' alt="" />
-      <img src="/bg/Ltop.png" className='rotate-180 absolute bottom-0  left-0 opacity-50  w-auto' alt="" />
-
+   
 
       <h1 className='text-primary text-5xl text-center mb-12'>Projectos</h1>
 

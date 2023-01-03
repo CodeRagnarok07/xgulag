@@ -3,10 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <section className='bg-dark ' id='tools'>
-     
-      <img src="/bg/Lbottom.png" className='absolute top-0  left-0 opacity-50  rotate-180' alt="" />
-     <img src="/bg/Lbottom.png" className='absolute bottom-0 right-0 opacity-50  ' alt="" />
-     <img src="/bg/Wolf.png" className='absolute  bottom-[30%] opacity-10  ' alt="" />
+   
 
 
       <h1 className='text-primary text-5xl text-center mb-12'>Tools</h1>
