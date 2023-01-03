@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section className='bg-light bg1' >
+    <section className='bg-light bg1' id='home' >
 
       <h1 className='text-5xl text-center mb-12'>Sobre mi</h1>
 

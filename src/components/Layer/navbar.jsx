@@ -9,9 +9,12 @@ export default function Navbar() {
 
       <div className='flex justify-around sm:justify-start sm:gap-8 sm:mx-20 items-center w-full'>
 
-        <a>home</a>
-        <a>projects</a>
-        <a>contact</a>
+        <a href='#home'>home</a>
+        <a href='#contact'>contact</a>
+        <a href='#skills'>skills</a>
+        <a href='#projects'>projects</a>
+        <a href='#nocode'>nocode</a>
+        <a href='#tools'>tools</a>
 
       </div>
     </nav>

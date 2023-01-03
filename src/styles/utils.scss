@@ -13,3 +13,8 @@
     height: 360px;
     margin-left: -400px;
   }
+
+.mirron{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

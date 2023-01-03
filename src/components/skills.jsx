@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function Skills() {
   return (
-    <section className='bg-light  ' >
+    <section className='bg-light' id='skills' >
 
       <h1 className='text-5xl text-center mb-12'>Skills</h1>
 
       <div className='flex  flex-col gap-10  mb-24'>
 
 
-
+      <img src="/bg/S-.png" className='absolute top-0 left-[-60px] opacity-50 h-[25%] w-auto' alt="" />
 
 
 
@@ -48,6 +48,8 @@ export default function Skills() {
 
       <p className='uppercase font-extrabold text-[3rem]  leading-10 text-right'>+ de 50 titulos en </p>
       <div className='flex w-full justify-end mb-32 mt-5'><img src="toolsSkils/platz.png" alt="" /></div>
+
+      <img src="/bg/S-.png" className='absolute bottom-0 right-0 opacity-50 h-[25%] w-auto' alt="" />
 
     </section>
   )

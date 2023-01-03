@@ -4,7 +4,7 @@
 
 
 html{
-    @apply text-xs sm:text-base
+    @apply text-xs sm:text-base scroll-smooth
 }
 
 h1{
@@ -16,4 +16,13 @@ h1{
 
 .text-dark{
     @apply text-black 
+}
+
+section{
+    @apply relative
+}
+
+/* animations */
+.transition1{
+    @apply transition ease-in-out delay-150 duration-700
 }

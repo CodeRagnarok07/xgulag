@@ -5,15 +5,16 @@ import Bg1 from './bg/bg1'
 export default function projects() {
   return (
 
-    <section className='bg-dark text-white  flex flex-col gap-20'>
+    <section className='bg-dark text-white  flex flex-col gap-20' id='contact'>
+        <img src="/bg/Wolf.png" className='absolute top-0 opacity-10' alt="" />
 
       <h1 className='text-primary text-5xl' >contacto</h1>
-      
+
       <div>
 
         <p className='text-white'>14776, Branderburg , Alemania</p>
         <p className='text-white'>+ 49 157 36666390</p>
-        <a href="mailto:sergio@loick.com">sergio@loick.com</a>
+        <a target="_blank" rel="noreferrer" href="mailto:sergio@loick.com">sergio@loick.com</a>
       </div>
 
 
@@ -23,25 +24,25 @@ export default function projects() {
         <a href="https://www.loick.team" target="_blank" rel="noreferrer"  >www.loick.team</a>
         <a href="https:/www.turing-ai.xyz" target="_blank" rel="noreferrer"  >www.turing-ai.xyz</a>
 
-        
-        
+
+
       </div>
 
 
-      <div className='flex items-center justify-end gap-2 mt-auto'>
+      <div className='flex items-center justify-end gap-10 mt-auto'>
 
-        <a href="h-full w-auto">
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/gulag__gg">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
             <path fill='white' d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" /></svg>
         </a>
 
-        <a href="">
+        <a target="_blank" rel="noreferrer" href="https://www.twitch.tv/xmadeingulag">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
             <path fill='white' d="M10.224 17.806l1.776-1.776h3.343l2.09-2.09v-6.686h-10.03v8.776h2.821v1.776zm3.866-8.149h1.254v3.653h-1.254v-3.653zm-3.344 0h1.254v3.653h-1.254v-3.653zm1.254-9.657c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.687 14.567l-3.657 3.657h-2.716l-1.777 1.776h-1.88v-1.776h-3.344v-9.821l.941-2.403h12.433v8.567z" /></svg>
         </a>
 
         {/* discord */}
-        <a href="">
+        <a target="_blank" rel="noreferrer" href="https://discord.com/users/GULAG#2852" className='-ml-3'>
           <svg xmlns="http://www.w3.org/2000/svg" height="80" width="120" version="1.1" id="Layer_1" viewBox="-108.84 -49.575 943.28 297.45">
 
             <path fill='white' d="M105.9 83.2c-5.7 0-10.2 4.9-10.2 11s4.6 11 10.2 11c5.7 0 10.2-4.9 10.2-11s-4.6-11-10.2-11zm-36.5 0c-5.7 0-10.2 4.9-10.2 11s4.6 11 10.2 11c5.7 0 10.2-4.9 10.2-11 .1-6.1-4.5-11-10.2-11z" class="st0" />
@@ -49,6 +50,9 @@ export default function projects() {
           </svg>
         </a>
       </div>
+
+      <img src="/bg/xgulag.png" className='absolute bottom-0 opacity-10' alt="" />
+
     </section>
 
   )

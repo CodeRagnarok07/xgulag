@@ -4,10 +4,17 @@
 @import 'utils';
 // @import 'components';
 
+*{
+    outline: none;
+    // border: 1px solid red;
+}
+
+
 html,
 body {
     font-family: 'Roboto Condensed', sans-serif;
     width: 100%;
+    overflow-x: hidden;
 
 }
 
@@ -35,11 +42,7 @@ p {
 }
 
 
-// animaciones
 
-.transition1{
-    @apply transition ease-in-out delay-150 duration-700
-}
 
 // Themes
 
@@ -136,7 +139,8 @@ nav {
 }
 
 footer {
+    z-index: 10;
     -webkit-box-shadow: 0 -1px 5px 2.5px v.$light2;
     -moz-box-shadow: 0 -1px 5px 2.5px v.$light2;
-    box-shadow: 1px 2px 5px 0.01px v.$light2;
+    box-shadow: 0px -5px 5px 0.01px v.$light2;
 }
