@@ -14,7 +14,7 @@ export default function Skills() {
 
 
         <div className='w-auto ml-auto flex items-start justify-around '>
-          <p className='text-right font-bold text-xl'>manejo de metodologías ágiles para equipos de alto rendimiento.
+          <p className='text-right font-bold text-xl'>Manejo de metodologías ágiles para equipos de alto rendimiento.
             </p>
           <div><div className='h-5 w-5 mt-2 ml-2 bg-dark rounded-full'></div></div>
         </div>
